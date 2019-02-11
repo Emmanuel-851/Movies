@@ -1,6 +1,21 @@
 .App {
   text-align: center;
 }
+.navbar{
+  list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 10vh;
+    margin-top: 0;
+    align-items: center;
+    padding-left: 0;
+    font-size: 3.5em;
+    background-color:burlywood;
+    margin-bottom: 0;
+
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -16,10 +31,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
+  
 }
 
 @keyframes App-logo-spin {
@@ -29,4 +41,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.titulo-home{
+
+    width: 98.8vw;
+    height: 60vh;
+    background-image: url('https://cdn.pixabay.com/photo/2015/05/15/09/13/demonstration-767983_960_720.jpg');
+    background-size: 100% 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    margin-top: 0;
+    margin-bottom: 5vh;
+
+    
+}
+.animacion-titulo{
+  font-size: 4em;
+  color: red;
+  animation-name: view;
+  animation-duration: 3s;
+}
+@keyframes view{
+  0%{
+      transform: scale(0);
+      opacity: 0;
+  }
+  100%{
+      transform: scale(100%);
+      opacity: 1;
+  }
+}
+.movie-card{
+  background-color: bisque;
+}
+
+.linkkkk{
+
+  color: blue;
+  text-decoration: none;
+  
+}
+.imagennnnnn-card{
+    width: 200;
+    height: 300;
+    z-index: 10;
+    border-radius: 10px;
+  
 }
