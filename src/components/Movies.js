@@ -77,6 +77,56 @@ render () {
             ))
 
         }
+        <div className='new-product-conteiner'>
+        <h2>Agregar una nueva Pelicula</h2>
+
+        <label for='nombre'>Nombre: </label>
+                <input
+                
+                type='text'
+                name='nombre'
+                id='nombre'
+                onChange={(e)=>this.changeName(e)}
+
+                />
+                <label for='precio'>precio: </label>
+                <input type='number' name='precio'
+                id='precio'
+                onChange={(e)=>this.changeprecio(e)}
+
+                />
+                
+                <label for='fecha'>fecha de caducidad: </label>
+                <input
+                
+                type='number'
+                name='fecha'
+                id='fecha'
+                onChange={(e)=>this.changefecha(e)}
+
+                />
+                <label for='contiene'>contiene: </label>
+                <input
+                
+                type='text'
+                name='contiene'
+                id='contiene'
+                onChange={(e)=>this.changecontiene(e)}
+
+                />
+                <label for='imagen'>URL de imagen: </label>
+                <input
+                
+                type='text'
+                name='imagen'
+                id='imagen'
+                onChange={(e)=>this.changeimagen(e)}
+
+                />
+                
+                   <button onClick={(e)=>this.addProduct(e)}>Agregar Pelicula</button>
+
+        </div>
         </div>
 
     )

@@ -47,7 +47,7 @@
 
     width: 98.8vw;
     height: 60vh;
-    background-image: url('https://cdn.pixabay.com/photo/2015/05/15/09/13/demonstration-767983_960_720.jpg');
+    background-image: url('https://www.hangdogrevival.com/wp-content/uploads/2013/11/The-Film-2-e1387226037240.jpg');
     background-size: 100% 150%;
     display: flex;
     justify-content: center;
@@ -91,3 +91,24 @@
     border-radius: 10px;
   
 }
+.footer-container{
+  width: 100vw;
+  margin-bottom: 0;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  color: white;
+}
+
+.laguito{
+  width: 50px;
+  height: 50px;
+  }
+  .new-product-conteiner{
+    margin-bottom: 8.5vh;
+    background-color: bisque;
+  }
